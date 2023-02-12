@@ -18,4 +18,11 @@ public class SleepUtils {
         } catch (InterruptedException e) {
         }
     }
+
+    public static final void milliSecond(long milliSecond) {
+        try {
+            TimeUnit.MICROSECONDS.sleep(milliSecond);
+        } catch (InterruptedException e) {
+        }
+    }
 }
