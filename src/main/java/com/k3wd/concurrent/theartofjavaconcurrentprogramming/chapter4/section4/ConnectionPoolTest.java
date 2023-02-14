@@ -51,10 +51,6 @@ public class ConnectionPoolTest {
         }
 
         public void run() {
-            try {
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
             while (count > 0) {
                 try {
                     // 从线程池中获取连接，如果1000ms内无法获取到，将会返回null
