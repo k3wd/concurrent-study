@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 研究一下
- *
+ * Atomic类的意义：单线程能保证基本和普通类一样快，多线程能保证安全。
  * @author k3wd
  * @date 2023/2/14
  */
